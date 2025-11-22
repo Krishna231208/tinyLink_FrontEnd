@@ -222,7 +222,7 @@ export default function Dashboard() {
 
                   <td className="p-2">
                     <a
-                      href={`http://localhost:5173/code/${link.code}`}
+                      href={`${window.location.origin}/code/${link.code}`}
                       className="text-green-600 hover:underline"
                       target="_blank"
                     >
